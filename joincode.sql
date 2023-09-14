@@ -14,7 +14,13 @@ insert into location_inf values(6,'holenarsipur',273120,true,'laxmidevi');
 insert into location_inf values(7,'kolar',373120,false,'agantha');
 insert into location_inf values(3,'tiptur',473120,true,'ellora');
 
-
+create table scientist_info(id int,scientist_name varchar(50),location varchar(40),salary double,qualities varchar(50));
+insert into scientist_info values(1,'newton','bangalore',100,'courages');
+insert into scientist_info values(3,'galileo','gulbarga',200,'creative');
+insert into scientist_info values(4,'charlesdarwin','kolar',300,'persistent');
+insert into scientist_info values(7,'jjthhomson','raichur',400,'openminded');
+insert into scientist_info values(6,'aristotle','guntur',500,'oriented');
+select* from scientist_info;
 
 select * from weather_inf;
 select * from location_inf;
